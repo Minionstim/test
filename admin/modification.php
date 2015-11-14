@@ -7,7 +7,7 @@
 	$articleId = $_GET['articleId'];
 	$Id = $_GET['Id'];
 	$news = NewsArticles::getNewsById($articleId);
-	//获得表单提交的数据
+	//获得表单提交的数据jjjjjjjj
 		$articleId2 = $_POST['articleId'];
 		//echo $articleId;
 	$title = $_POST["title"];
