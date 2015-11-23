@@ -7,7 +7,7 @@
 	$articleId = $_GET['articleId'];
 	$Id = $_GET['Id'];
 	$news = NewsArticles::getNewsById($articleId);
-	//获得表单提交的数据jjjjjjjj
+	//获得表单提交的数据
 		$articleId2 = $_POST['articleId'];
 		//echo $articleId;
 	$title = $_POST["title"];
@@ -16,8 +16,7 @@
 	$source = $_POST["source"];
 	$newsImg = $_FILES["newsImg"];
 	$content = $_POST["content"];
-
-		//$userName = $_SESSION["userMsg"]["userName"];
+	
 		$result = NewsArticles::modification($content, $title, $typeId, $userName, $writer, $source, $savePath,$articleId2);
 		print_r($result);
 	
