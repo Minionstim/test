@@ -74,7 +74,7 @@
     </script>
   </head>
   <body>
-    <!-- 包含头 -->
+    <!-- 包含头  -->
     <?php include_once 'header.php';?>
 	
 	<!-- 正文内容 -->
