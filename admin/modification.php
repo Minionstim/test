@@ -16,24 +16,11 @@
 	$source = $_POST["source"];
 	$newsImg = $_FILES["newsImg"];
 	$content = $_POST["content"];
-	//var_dump($title);
 
-	//表单提交(添加新闻)
-	//if($content != NULL)
-//	{
-		//修改数据库
 		//$userName = $_SESSION["userMsg"]["userName"];
 		$result = NewsArticles::modification($content, $title, $typeId, $userName, $writer, $source, $savePath,$articleId2);
 		print_r($result);
-		//if($result > 0)
-		//{
-		//	header("location:success.php?act=modification&rst=3");
-		//}
-	//	else
-	 //	{
-		//	header("location:success.php?act=modification&rst=4");
-	//	}
-	//}	
+	
 	$newsTypes = NewsTypes::getNewsTypes();//所有分类
 ?>
 <!DOCTYPE html>
