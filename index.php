@@ -10,7 +10,7 @@
 	$password = $_POST["password"];
 	$checkCode = $_POST["checkCode"];
 	$trueCode = $_SESSION["trueCode"];
-	//表单提交了(管理员登陆)
+	//表单提交(管理员登陆)
 	if($userName != NULL)
 	{
 		if($checkCode == $trueCode)
