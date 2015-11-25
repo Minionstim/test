@@ -82,10 +82,6 @@ create table reviews
 
 
 
-select * from manager;
-select * from newsTypes;
-select * from newsArticles;
-select * from reviews;
 
 
 
