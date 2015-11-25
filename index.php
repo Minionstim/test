@@ -107,7 +107,7 @@
 <?php 
 	foreach ($newsTypes as $v)
 	{
-		//查询当前分类下的两条新闻
+		//查询 查询当前分类下的两条新闻
 		$newsInfo = NewsArticles::getNewsTow($v["typeId"]);
 ?>
 	    <div class="twoNews">
