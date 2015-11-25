@@ -20,7 +20,7 @@
 		$result = NewsArticles::modification($content, $title, $typeId, $userName, $writer, $source, $savePath,$articleId2);
 		print_r($result);
 	
-	$newsTypes = NewsTypes::getNewsTypes();//所有分类
+	$newsTypes = NewsTypes::getNewsTypes();//显示所有分类
 ?>
 <!DOCTYPE html>
 <html>
