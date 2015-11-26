@@ -13,6 +13,10 @@ create table manager
 	addnum			int				default 0
 );
 insert into manager(userName,password,userType)values('admin','123','系统管理员');
+insert into manager(userName,password,userType)values('admin','123','系统管理员');
+insert into manager(userName,password,userType)values('admin','123','系统管理员');
+insert into manager(userName,password,userType)values('admin','123','系统管理员');
+insert into manager(userName,password,userType)values('admin','123','系统管理员');
 
 #新闻分类表
 create table newsTypes
