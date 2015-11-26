@@ -128,7 +128,7 @@
 	</div>
     
     
-    <!-- 网页脚 -->
+    <!-- 网页脚 //abc //abc //abc -->
     <?php include_once 'footer.php';?>
   </body>
 </html>
