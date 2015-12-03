@@ -112,6 +112,17 @@ create table reviews
 
 
 
+#评论表
+create table reviews
+(
+	id				int				auto_increment				primary key,
+	articleId		int,
+	foreign key (articleId) references newsArticles(articleId),
+	userName		varchar(100)	not null,
+	body			varchar(1000)	not null,
+	face			varchar(20)		not null,
+	dateandtime		timestamp		default current_timestamp
+);
 
 
 
