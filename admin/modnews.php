@@ -78,7 +78,7 @@
           <div>
             &nbsp;新闻搜索：<input type="text" name="keyword" size="50">
             <select name="searchType">
-              <option value="title">标题</option>
+              <option value="title" selected="selected">标题</option>
               <option value="content">内容</option>
             </select>
             <input type="submit" value="搜索">

@@ -23,7 +23,7 @@
 		{
 			$this->conn = mysql_connect("localhost","root","123");
 			mysql_query("set names utf8");
-			mysql_select_db("news");
+			mysql_select_db("n");
 		}
 		//执行insert、update、delete操作，返回：受影响的行数
 		public function exec($sql)
