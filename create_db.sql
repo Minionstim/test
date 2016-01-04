@@ -208,3 +208,5 @@ create table manager
 	addnum			int				default 0
 );
 insert into manager(userName,password,userType)values('admin','123','系统管理员');
+
+
