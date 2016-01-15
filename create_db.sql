@@ -207,6 +207,6 @@ create table manager
 	remark			varchar(200)		null,
 	addnum			int				default 0
 );
-insert into manager(userName,password,userType)values('admin','123',
+
 
 
