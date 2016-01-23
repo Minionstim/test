@@ -197,16 +197,5 @@ insert into newsArticles(content,title,typeid,username,writer,source,hints,check
 
 use n;
 
-#管理员表
-create table manager
-(
-	id				int				auto_increment			primary key,
-	userName		varchar(100)	not null,
-	password		varchar(100)	not null,
-	userType		varchar(20)		not null,
-	remark			varchar(200)		null,
-	addnum			int				default 0
-);
-
 
 
