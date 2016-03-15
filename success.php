@@ -2,7 +2,7 @@
 	header("content-type:text/html;charset=utf-8");
 	include_once 'dbio/NewsTypes.php';
 	
-	//获得url中的参数
+	//获得url中的参
 	$act = $_GET["act"];//操作类型
 	$rst = $_GET["rst"];//操作结果
 	$message = "";//页面显示的提示信息
