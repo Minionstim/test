@@ -56,7 +56,7 @@ test1
       <div class="leftDiv"><?php include_once 'left.php';?></div>
       <!-- 右侧正文内容 -->
       <div class="rightDiv">
-        <div class="welcomeDiv">欢迎登陆天天网管理系统</div>
+        <div class="welcomeDiv">欢迎登陆天天网管理系统!</div>
         <div class="roleDiv">您的权限是：您是<?php echo $_SESSION["userMsg"]["userType"]?></div>
       </div>
     </div>
