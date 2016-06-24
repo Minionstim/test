@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>后台管 理</title>
+    <title>后台管理</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <link href="../css/admin.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="../jquery/jquery-1.4.js"></script>
