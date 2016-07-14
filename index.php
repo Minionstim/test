@@ -5,7 +5,7 @@
 	include_once 'dbio/Manager.php';
 	session_start();
 	
-	//获得表单提交的数据
+	////获得表单提交的数据
 	$userName = $_POST["userName"];
 	$password = $_POST["password"];
 	$checkCode = $_POST["checkCode"];
